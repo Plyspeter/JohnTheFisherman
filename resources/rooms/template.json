@@ -1,0 +1,103 @@
+{
+  "id": 0,
+  "background": "./file/path", //relative path to background image.
+  "links": { //id's of the adjacent rooms. -1 means no adjacent room.
+    "top": -1,
+    "bottom": -1,
+    "left": -1,
+    "right": 1
+  },
+  "prefabs": [ //list of prefabs included. Name should equal filename without extension. Prefabs must be located in prefab folder.
+    {
+      "name": "full-floor", //Should be the same as filename, without extension.
+      "position": {
+        "x": 0,
+        "y": 20
+      }
+    }
+  ],
+  "gameObjects": [ //List of gameObjects in room.
+    {
+	  "name": "test-room0",
+      "position": {
+        "x": 69,
+        "y": 420
+      },
+      "components": [ //List of components of gameObject.
+        {
+          "componentType": 0, //Type of component, 0 = physics, 1 = enemy, 2 = skeletonRunner, 3 = animation, 4 = sprite, 5 = sound, 6 = mPlatform, 7 = enemyFlyer
+          "bodyType": 2, //Type of physicsbody. 0 = static, 1 = kinematic, 2 = dynamic
+          "density": 1,
+          "gravityScale": 1, //Optional, how much gravity affects the object
+          "relativePosition": {"x": 0, "y": 0}, //Optional, defines it position relative to gameObject 
+          "pcType": 0, //physicsType, 0 = square, 1 = circle
+          "size": { //size is specific for square. Circle needs "radius": value
+            "x": 40,
+            "y": 40
+          },
+          "fixRotation": true
+        },
+		    {
+          "componentType": 1, //Enemy
+          "dead": false 
+        },
+		    {
+          "componentType": 2, //skeletonRunner
+		      "dead": false 
+        },
+		    {
+          "componentType": 3, //Animation
+		      "animationSpriteMap": 
+		      [
+			      {
+              "name": "animation1", //Name of animation
+              "sprites": ["sprite.png"] //Atlas name of sprites that are in the animation
+		      	}
+          ],
+          "relativePosition": {"x": 0, "y": -5}, //Optional
+          "scale": {"x": 1.5, "y": 1.5}, //Optional
+          "animationTimeMap": 
+		      [
+			      {
+              "name": "animation1", //Name of animation
+              "time": 0.33 //time between sprites
+		      	}
+          ],
+          "currentAnimation": "animation1",
+          "time": 0, //current time of animation
+          "spriteIndex": 0, //index of what sprite in animation is shown now,
+          "flip": false //Wether the sprites should be flipped horizontally
+        },
+        {
+          "componentType": 4, //Sprite
+          "flip": false, //Wether sprite is flipped horizontally,
+          "scale": {"x": 1.5, "y": 1.5}, //Optional
+          "relativePosition": {"x": 0, "y": 0}, //Optional
+          "sprite": "sprite.png" //atlas name of sprite
+        },
+        {
+          "componentType": 5, //Sound
+          "loop": false,
+          "sounds": [
+            {
+              "name": "soundName",
+              "sound": "sounds/sound.wav" //path of sound
+            }
+          ]
+        },
+        {
+          "componentType": 6, //MovingPlatform
+          "reverse": false,
+          "total": 0, //how far it has reached (should be lower or equal to speed) Optional
+          "speed": 1,
+          "relativeEnd": {"x": 0, "y": 0} //Where it ends, relative to position 
+        }
+        {
+          "componentType": 7, //EnemyFlyer
+          "dead": false,
+          "direction": {"x": -1, "y": 1} //Optional, what direction it will move in 
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "down-up-boat",
+  "components": 
+  [
+    {
+      "componentType": 0,
+	  "bodyType": 2,
+	  "density": 1,
+	  "pcType": 0,
+	  "fixRotation": true,
+	  "size": {"x": 60, "y": 5}
+    },
+    {
+      "componentType": 6,
+      "reverse": true,
+      "total": 0,
+      "speed": 7,
+      "relativeEnd": {"x": 0, "y": -400}    
+    },
+    {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Boat.png",
+	 "relativePosition": {"x": 0, "y": 0}
+   }
+  ] 
+}

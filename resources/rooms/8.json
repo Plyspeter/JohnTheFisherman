@@ -1,0 +1,76 @@
+{
+  "id": 8,
+  "background": "./file/path",
+  "links": {
+    "top": -1,
+    "bottom": -1,
+    "left": 7,
+    "right": 9
+  },
+  "prefabs": [
+    {
+        "name": "background",
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "name": "full-water",
+        "position": {
+            "x": 0,
+            "y": 10
+        }
+    },
+    {
+        "name": "boat",
+        "position": {
+            "x": -250,
+            "y": 40 
+        }
+    },
+    {
+      "name": "barrel",
+      "position": {
+        "x": -250,
+        "y": 85
+      }
+    },
+    {
+        "name": "single-floor",
+        "position": {
+            "x": -400,
+            "y": 20
+        }
+    },
+    {
+        "name": "runner",
+        "position": {
+            "x": -350,
+            "y": 40
+        }
+    },
+    {
+        "name": "fishing-hut",
+        "position": {
+            "x": 400,
+            "y": 20
+        }
+    },
+    {
+      "name": "flyer",
+      "position": {
+        "x": 0,
+        "y": 200
+      }
+    },
+    {
+      "name": "flyer",
+      "position": {
+        "x": 320,
+        "y": 280
+      }
+    }
+  ],
+  "gameObjects": []
+}

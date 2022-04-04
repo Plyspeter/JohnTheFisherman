@@ -1,0 +1,69 @@
+{
+  "id": 18,
+  "background": "./file/path",
+  "links": {
+    "top": -1,
+    "bottom": -1,
+    "left": 17,
+    "right": 19
+  },
+  "prefabs": [
+    {
+        "name": "background",
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "name": "full-water",
+        "position": {
+            "x": 0,
+            "y": 10
+        }
+    },
+    {
+      "name": "full-floor",
+      "position": {
+        "x": 0,
+        "y": 20
+      }
+    },
+    {
+        "name": "single-floor2",
+        "position": {
+            "x": -400,
+            "y": 20
+        }
+    },
+    {
+      "name": "boat",
+      "position": {
+        "x": -250,
+        "y": 120 
+      }
+    },
+    {
+      "name": "runner-fast",
+      "position": {
+        "x": 300,
+        "y": 40
+      }
+    },
+    {
+      "name": "runner-fast",
+      "position": {
+        "x": 330,
+        "y": 40
+      }
+    },
+    {
+      "name": "runner-fast",
+      "position": {
+        "x": 360,
+        "y": 40
+      }
+    }
+  ],
+  "gameObjects": []
+}

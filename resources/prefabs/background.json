@@ -1,0 +1,14 @@
+{
+ "name": "background",
+ "components": 
+ [
+   //Sprite 0
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "background.png",
+	 "relativePosition": {"x": 0, "y": 0},
+	 "scale": {"x": 1.125, "y": 1.5}
+   }
+ ]
+}

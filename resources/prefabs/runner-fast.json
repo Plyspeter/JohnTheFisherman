@@ -1,0 +1,68 @@
+{
+  "name": "runner",
+   "components": [
+   {
+     "componentType": 0,
+	 "bodyType": 2,
+	 "density": 1,
+	 "pcType": 1,
+	 "fixRotation": true,
+     "radius": 16.66,
+     "relativePosition": {"x": -15, "y": 0}
+   },
+   {
+     "componentType": 4, //Sprite
+     "flip": false, //Wether sprite is flipped horizontally,
+     "sprite": "slime3-fast.png", //atlas name of sprite
+     "scale": {
+          "x": 1,
+          "y": 1
+     }
+   },
+   {
+     "componentType": 2,
+     "dead": false,
+     "maxVelocity": 2.8,
+     "acc": 0.09
+   },
+   {
+    "componentType": 5, //Sound
+    "loop": false,
+    "sounds": [
+      {
+        "name": "movement",
+        "sound": "slimejump.wav"
+      },
+      {
+        "name": "death",
+        "sound": "slimedeath.wav"
+      }
+    ]
+  },
+   {
+     "componentType": 3, //Animation
+     "scale": {
+          "x": 1,
+          "y": 1
+     },
+     "animationSpriteMap": [
+	   {
+         "name": "Walk", //Name of animation
+         "sprites": ["slime3-fast.png", "slime1-fast.png", "slime2-fast.png"] //Atlas name of sprites that are in the animation
+	   }
+    ],
+    "relativePosition": {"x": 0, "y": -16},
+    "animationTimeMap": 
+	[
+	  {
+        "name": "Walk", //Name of animation
+        "time": 0.33 //Atlas name of sprites that are in the animation
+	  }
+    ],
+    "currentAnimation": "Walk",
+    "time": 0, //current time of animation
+    "spriteIndex": 0, //index of what sprite in animation is shown now,
+    "flip": true //Wether the sprites should be flipped horizontally
+   }
+  ]
+}

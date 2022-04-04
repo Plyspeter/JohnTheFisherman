@@ -1,0 +1,70 @@
+{
+  "id": 13,
+  "background": "./file/path",
+  "links": {
+    "top": -1,
+    "bottom": -1,
+    "left": 12,
+    "right": 14
+  },
+  "prefabs": [
+    {
+        "name": "background",
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "name": "full-water",
+        "position": {
+            "x": 0,
+            "y": 10
+        }
+    },
+    {
+      "name": "full-floor",
+      "position": {
+        "x": 0,
+        "y": 20
+      }
+    },
+    {
+      "name": "up-down-boat",
+      "position": {
+        "x": 0,
+        "y": 160
+      }
+    },
+    {
+      "name": "barrel",
+      "position": {
+        "x": 0,
+        "y": 180
+      }
+    },
+    {
+      "name": "barrel",
+      "position": {
+        "x": 0,
+        "y": 200
+      }
+    },
+
+    {
+      "name": "single-floor3",
+      "position": {
+        "x": -400,
+        "y": 60
+      }
+    },
+    {
+      "name": "single-floor3",
+      "position": {
+        "x": 400,
+        "y": 60
+      }
+    }
+  ],
+  "gameObjects": []
+}

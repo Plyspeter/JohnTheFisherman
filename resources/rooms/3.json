@@ -1,0 +1,55 @@
+{
+  "id": 3,
+  "background": "./file/path",
+  "links": {
+    "top": -1,
+    "bottom": -1,
+    "left": 2,
+    "right": 4
+  },
+  "prefabs": [
+    {
+        "name": "background",
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "name": "full-water",
+        "position": {
+            "x": 0,
+            "y": 10
+        }
+    },
+    {
+        "name": "boat",
+        "position": {
+            "x": -250,
+            "y": 40 
+        }
+    },
+    {
+        "name": "single-floor",
+        "position": {
+            "x": -400,
+            "y": 20
+        }
+    },
+    {
+        "name": "single-floor",
+        "position": {
+            "x": 400,
+            "y": 20
+        }
+    },
+    {
+      "name": "flyer",
+      "position": {
+        "x": 0,
+        "y": 200
+      }
+    }
+  ],
+  "gameObjects": []
+}

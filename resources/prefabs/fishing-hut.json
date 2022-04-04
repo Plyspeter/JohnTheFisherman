@@ -1,0 +1,31 @@
+{
+ "name": "fishing-hut",
+ "components": 
+ [
+   //Physics
+   {
+     "componentType": 0,
+	 "bodyType": 0,
+	 "density": 1,
+	 "pcType": 0,
+	 "size": {"x": 80, "y": 60},
+	 "relativePosition": {"x": -25, "y": 0}
+   },
+   //Physics 2
+   {
+     "componentType": 0,
+	 "bodyType": 0,
+	 "density": 1,
+	 "pcType": 0,
+	 "size": {"x": 75, "y": 40},
+	 "relativePosition": {"x": 70, "y": -41}
+   },
+   //Sprite 0
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Fishing_hut.png",
+	 "relativePosition": {"x": 0, "y": 0}
+   }
+ ]
+}

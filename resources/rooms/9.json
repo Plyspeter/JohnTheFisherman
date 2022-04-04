@@ -1,0 +1,48 @@
+{
+  "id": 9,
+  "background": "./file/path",
+  "links": {
+    "top": -1,
+    "bottom": -1,
+    "left": 8,
+    "right": 10
+  },
+  "prefabs": [
+    {
+        "name": "background",
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "name": "full-water",
+        "position": {
+            "x": 0,
+            "y": 10
+        }
+    },
+    {
+      "name": "full-floor",
+      "position": {
+        "x": 0,
+        "y": 20
+      }
+    },
+    {
+      "name": "runner-fast",
+      "position": {
+        "x": 300,
+        "y": 40
+      }
+    },
+    {
+      "name": "runner-medium",
+      "position": {
+        "x": 350,
+        "y": 40
+      }
+    }
+  ],
+  "gameObjects": []
+}

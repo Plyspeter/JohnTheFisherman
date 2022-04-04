@@ -1,0 +1,54 @@
+{
+ "name": "full-water",
+ "components": 
+ [
+   //Sprite 0
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Water-0.png",
+	 "scale": {"x": 2.0, "y": 1.0},
+	 "relativePosition": {"x": 400, "y": 0}
+   },
+   //Sprite 1
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Water-0.png",
+	 "scale": {"x": 2.0, "y": 1.0},
+	 "relativePosition": {"x": 240, "y": 0}
+   },
+   //Sprite 2
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Water-0.png",
+	 "scale": {"x": 2.0, "y": 1.0},
+	 "relativePosition": {"x": 80, "y": 0}
+   },
+   //Sprite 3
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Water-0.png",
+	 "scale": {"x": 2.0, "y": 1.0},
+	 "relativePosition": {"x": -80, "y": 0}
+   },
+   //Sprite 4
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Water-0.png",
+	 "scale": {"x": 2.0, "y": 1.0},
+	 "relativePosition": {"x": -240, "y": 0}
+   },
+   //Sprite 5
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Water-0.png",
+	 "scale": {"x": 2.0, "y": 1.0},
+	 "relativePosition": {"x": -400, "y": 0}
+   }
+ ]
+}

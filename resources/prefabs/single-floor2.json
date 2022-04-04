@@ -1,0 +1,32 @@
+{
+ "name": "single-floor2",
+ "components": 
+ [
+   //Physics
+   {
+     "componentType": 0,
+	 "bodyType": 0,
+	 "density": 1,
+	 "pcType": 0,
+	 "size": {"x": 80, "y": 100}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 5}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 45}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 85}
+   }
+ ]
+}

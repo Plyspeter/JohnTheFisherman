@@ -1,0 +1,111 @@
+{
+  "id": 17,
+  "background": "./file/path",
+  "links": {
+    "top": -1,
+    "bottom": -1,
+    "left": 16,
+    "right": 18
+  },
+  "prefabs": [
+    {
+        "name": "background",
+        "position": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    {
+        "name": "full-water",
+        "position": {
+            "x": 0,
+            "y": 10
+        }
+    },
+    {
+        "name": "boat",
+        "position": {
+            "x": -250,
+            "y": 40 
+        }
+    },
+    {
+        "name": "barrel",
+        "position": {
+            "x": -250,
+            "y": 80 
+        }
+    },
+    {
+        "name": "barrel",
+        "position": {
+            "x": -280,
+            "y": 80 
+        }
+    },
+    {
+        "name": "barrel",
+        "position": {
+            "x": -220,
+            "y": 80 
+        }
+    },
+    {
+        "name": "barrel",
+        "position": {
+            "x": -265,
+            "y": 120 
+        }
+    },
+    {
+        "name": "barrel",
+        "position": {
+            "x": -235,
+            "y": 120 
+        }
+    },
+    {
+        "name": "barrel",
+        "position": {
+            "x": -250,
+            "y": 160 
+        }
+    },
+    {
+        "name": "single-floor",
+        "position": {
+            "x": -400,
+            "y": 20
+        }
+    },
+    {
+        "name": "single-floor2",
+        "position": {
+            "x": 400,
+            "y": 20
+        }
+    },
+    {
+      "name": "flyer",
+      "position": {
+        "x": 200,
+        "y": 300
+      }
+    },
+    {
+      "name": "flyer",
+      "position": {
+        "x": 0,
+        "y": 400
+      }
+    },
+    {
+      "name": "flyer",
+      "position": {
+        "x": -200,
+        "y": 200
+      }
+    }
+  ],
+  "gameObjects": []
+}

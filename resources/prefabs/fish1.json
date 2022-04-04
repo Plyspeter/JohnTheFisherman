@@ -1,0 +1,23 @@
+{
+ "name": "fish1",
+ "components": 
+ [
+   {
+     "componentType": 0,
+	 "bodyType": 2,
+	 "density": 1,
+	 "pcType": 0,
+	 "size": {"x": 7, "y": 6},
+	 "fixRotation": true
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "1.png",
+	 "relativePosition": {"x": 0, "y": 0}
+   },
+   {
+     "componentType": 9
+   }
+ ]
+}

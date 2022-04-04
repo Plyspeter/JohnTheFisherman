@@ -1,0 +1,70 @@
+{
+  "name": "flyer",
+   "components": [
+   {
+     "componentType": 0,
+	   "bodyType": 2,
+	   "density": 1,
+     "pcType": 1,
+     "gravityScale": 0,
+	   "fixRotation": true,
+     "radius": 20
+   },
+   {
+     "componentType": 7,
+     "dead": false
+   },
+   {
+     "componentType": 4, //Sprite
+     "flip": false, //Wether sprite is flipped horizontally,
+     "sprite": "bird-2.png", //atlas name of sprite
+     "scale": {
+          "x": 0.08,
+          "y": 0.08
+     }
+   },
+   {
+    "componentType": 5, //Sound
+    "loop": false,
+    "sounds": [
+      {
+        "name": "movement",
+        "sound": "flyermove.wav"
+      },
+      {
+        "name": "death",
+        "sound": "slimedeath.wav"
+      }
+    ]
+  },
+   {
+     "componentType": 3, //Animation
+     "scale": {
+          "x": 0.08,
+          "y": 0.08
+     },
+     "flipOffset": {
+          "x": 10,
+          "y": 0
+     },
+     "animationSpriteMap": [
+	   {
+         "name": "Fly", //Name of animation
+         "sprites": ["bird-2.png", "bird-3.png", "bird-4.png"] //Atlas name of sprites that are in the animation
+	   }
+    ],
+    "relativePosition": {"x": -5, "y": 0},
+    "animationTimeMap": 
+	[
+	  {
+        "name": "Fly", //Name of animation
+        "time": 0.33 //Atlas name of sprites that are in the animation
+	  }
+    ],
+    "currentAnimation": "Fly",
+    "time": 0, //current time of animation
+    "spriteIndex": 0, //index of what sprite in animation is shown now,
+    "flip": true //Wether the sprites should be flipped horizontally
+   }
+  ]
+}

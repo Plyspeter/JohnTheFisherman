@@ -1,0 +1,128 @@
+{
+ "name": "single-floor3",
+ "components": 
+ [
+   //Physics
+   {
+     "componentType": 0,
+	 "bodyType": 0,
+	 "density": 1,
+	 "pcType": 0,
+	 "size": {"x": 80, "y": 720}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": -35}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 5}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 45}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 85}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 125}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 165}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 205}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 245}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 285}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 325}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 365}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 405}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 445}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 485}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 525}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 565}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 605}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 645}
+   },
+   {
+     "componentType": 4,
+	 "flip": false,
+	 "sprite": "Pier_Tiles-0.png",
+	 "relativePosition": {"x": 0, "y": 685}
+   }
+ ]
+}
